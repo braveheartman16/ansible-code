@@ -1,17 +1,17 @@
-[devserver]
-
-184.73.1.192 
-
 [qaserver]
 
-3.95.136.8
+54.84.53.177
+[devserver]
+
+52.87.178.7
 
 #[children:devqa]
 
 #qaserver
 #devserver
 
-#[qaserver:vars]
+
+[qaserver:vars]
 
 #ansible_ssh_user=centos
 
